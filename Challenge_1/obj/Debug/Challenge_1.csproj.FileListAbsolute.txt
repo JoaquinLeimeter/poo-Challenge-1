@@ -9,3 +9,13 @@ C:\Users\joaquin\source\repos\Challenge_1\Challenge_1\bin\Debug\Challenge_1.pdb
 C:\Users\joaquin\source\repos\Challenge_1\Challenge_1\obj\Debug\Challenge_1.exe
 C:\Users\joaquin\source\repos\Challenge_1\Challenge_1\obj\Debug\Challenge_1.pdb
 C:\Users\joaquin\source\repos\Challenge_1\Challenge_1\obj\Debug\Challenge_1.Result.resources
+C:\Users\Radium Rocket\Desktop\poo-Challenge-1\Challenge_1\bin\Debug\Challenge_1.exe.config
+C:\Users\Radium Rocket\Desktop\poo-Challenge-1\Challenge_1\bin\Debug\Challenge_1.exe
+C:\Users\Radium Rocket\Desktop\poo-Challenge-1\Challenge_1\bin\Debug\Challenge_1.pdb
+C:\Users\Radium Rocket\Desktop\poo-Challenge-1\Challenge_1\obj\Debug\Challenge_1.csprojAssemblyReference.cache
+C:\Users\Radium Rocket\Desktop\poo-Challenge-1\Challenge_1\obj\Debug\Challenge_1.Form1.resources
+C:\Users\Radium Rocket\Desktop\poo-Challenge-1\Challenge_1\obj\Debug\Challenge_1.Properties.Resources.resources
+C:\Users\Radium Rocket\Desktop\poo-Challenge-1\Challenge_1\obj\Debug\Challenge_1.csproj.GenerateResource.cache
+C:\Users\Radium Rocket\Desktop\poo-Challenge-1\Challenge_1\obj\Debug\Challenge_1.csproj.CoreCompileInputs.cache
+C:\Users\Radium Rocket\Desktop\poo-Challenge-1\Challenge_1\obj\Debug\Challenge_1.exe
+C:\Users\Radium Rocket\Desktop\poo-Challenge-1\Challenge_1\obj\Debug\Challenge_1.pdb

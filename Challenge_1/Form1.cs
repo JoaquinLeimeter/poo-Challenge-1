@@ -21,7 +21,10 @@ namespace Challenge_1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            UsuariosRegistrados usuario1 = new UsuariosRegistrados("JoaquinGG", "123OPAla");
+            //En lugar de darles esas contraseñas, pueden encriptar y pasarle
+            //eso al constructor de ususarios registrados usando esta lista como nuestra BD.
+            //puntos extra si usan una BD
+            UsuariosRegistrados usuario1 = new UsuariosRegistrados("Joaquin", "123");
             UsuariosRegistrados usuario2 = new UsuariosRegistrados("JulianEA", "45963207Jv");
             UsuariosRegistrados usuario3 = new UsuariosRegistrados("Mauro123", "eX234&Jl");
 
@@ -32,17 +35,18 @@ namespace Challenge_1
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
+            //prestar atención a la validación para encontrar usuarios.
             var usuarios = UsuariosList;
-            string username = inputName.Text;
-            string pwd = inputPassword.Text;
-            UsuariosRegistrados asd = usuarios.Find(item => item.usuario == username && item.contraseña == pwd);
-            if (asd != null)
+            string usuario = inputName.Text;
+            string contraseña = inputPassword.Text;
+            //acá hay que comparar la contraseña encriptada.
+            UsuariosRegistrados u = usuarios.Find(item => item.usuario == usuario && item.contraseña == contraseña);
+            if (u != null)
             {
-                Result MessageWindow = new Result("Exito");
-                MessageWindow.Show();
+                MessageBox.Show("Exito");
             } else {
-                Result MessageWindow = new Result("Fallo");
-                MessageWindow.Show();
+                MessageBox.Show("Datos incorrectos");
+
             };
         }
     }
